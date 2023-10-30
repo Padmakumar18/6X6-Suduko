@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.naming.spi.DirStateFactory.Result;
 class Pk
 {
     static boolean Result(int save[][])
