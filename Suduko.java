@@ -239,12 +239,6 @@ public class Suduko
                                     {0,0,0,0,0,0},
                                     {0,0,0,0,0,0},
                                     {0,0,0,0,0,0}};
-        // int[][] save = new int[][] {{0,6,2,1,4,3},
-        //                             {4,3,1,2,5,6},
-        //                             {6,4,3,5,1,2},
-        //                             {2,1,5,3,6,4},
-        //                             {3,5,6,4,2,1},
-        //                             {1,2,4,6,3,0}};           
         boolean bh=true;
         System.out.println("Enter the Position Like This \"1A\" or \"1a\"\n");
         while(bh)
