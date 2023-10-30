@@ -1,5 +1,4 @@
 import java.util.*;
-import java.math.*;
 
 import javax.naming.spi.DirStateFactory.Result;
 class Pk
@@ -22,7 +21,7 @@ class Pk
                 {
                     for(int k=z+1;k<6;k++)
                     {
-                        if(/*Math.abs*/(arr[z]-arr[k]!=0))
+                        if((arr[z]-arr[k]!=0))
                         {
                              r++;
                         }
@@ -140,7 +139,7 @@ class Pk
         String alpha = "ABCDEF";
         int[] scan=new int[]{3,7,11,15,19,23};
         int[] arr=new int[]{1,2,3,4,5,6};
-        int num1=1;//for printing value in top of the table
+        int num1=1;
         int add=3,vali=0,valj=0,first=0,second=0,one=0,two=0;
             for(int i=0;i<6;i++)
             {
